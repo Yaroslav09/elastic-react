@@ -4,6 +4,7 @@ import LanguageSelector from "../language-selector";
 import Products from "./Products";
 import Solutions from "./Solutions";
 import Resources from "./Resources";
+import Dark from "./Dark";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -22,10 +23,11 @@ const Navbar = () => {
     { id: 4, text: "PRICING" },
     { id: 5, text: <Resources /> },
     { id: 6, text: <LanguageSelector /> },
+    { id: 7, text: <Dark /> },
   ];
 
   return (
-    <div className="bg-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#445265]">
+    <div className="bg-white flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#445265] dark:bg-blue-200">
       {/* Logo */}
       <h1 className="w-full text-3xl font-bold text-[#ED4B23]">ELASTIC.IO</h1>
 
