@@ -1,0 +1,42 @@
+{
+  "_COMMENT": "// HEADER MENU",
+  "----------": "------------",
+
+  "products": "PRODOTTI",
+  "ipaas": "iPaaS",
+  "enterprise_integration": "Integrazione Enterprise",
+  "saas_embedded_integration": "Integrazione Embedded per SaaS",
+
+  "solutions": "Soluzioni",
+  "salesforce_integration": "Integrazione Salesforce",
+  "net_suite_integration": "Integrazione NetSuite",
+  "sap_integration": "Integrazione SAP",
+
+  "cloud_integration": "Integrazione Cloud",
+  "hybrid_integration": "Integrazione Hybrid",
+  "api_integration": "Integrazione API",
+  "data_migration": "Migrazione dati",
+
+  "data_analysis": "Analisi dati",
+  "b2b_integration": "Integrazione B2B",
+  "mobile_integration": "Integrazione mobile",
+  "iot_integration": "Integrazione IoT",
+
+  "------------": "------------",
+  "resources": "Risorse",
+  "getting_started": "Iniziare",
+  "documentation": "Documentazione",
+  "release_notes": "Note di rilascio",
+  "system_status": "Stato del sistema",
+  "rest_api": "API REST",
+  "success_stories": "Storie di successo",
+  "datasheets": "Fogli di dati",
+
+  "partners": "Partner",
+  "customers": "Clienti",
+  "blog": "Blog",
+  "pressroom": "Pressroom",
+  "about_us": "Chi siamo",
+  "careers": "Lavora con noi",
+  "contact_us": "Contattaci"
+}
