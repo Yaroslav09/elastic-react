@@ -1,38 +1,3 @@
-import { Outlet, NavLink, Link } from "react-router-dom";
-
-// function Header() {
-//   return (
-//     <>
-//       <Navbar expand="lg" className="bg-body-tertiary">
-//         <Container>
-//           <Navbar.Brand as={Link} to="/Yaroslav-Bozhak-Portfolio/">
-//             YB Yaroslav Bozhak
-//           </Navbar.Brand>
-//           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//           <Navbar.Collapse id="basic-navbar-nav">
-//             <Nav className="me-auto">
-//               <Nav.Link as={NavLink} to="/Yaroslav-Bozhak-Portfolio/" end>
-//                 Home
-//               </Nav.Link>
-//               <Nav.Link as={NavLink} to="/Yaroslav-Bozhak-Portfolio/about">
-//                 About
-//               </Nav.Link>
-//               <Nav.Link as={NavLink} to="/Yaroslav-Bozhak-Portfolio/projects">
-//                 Projects
-//               </Nav.Link>
-//               <Nav.Link as={NavLink} to="/Yaroslav-Bozhak-Portfolio/contact">
-//                 Contact
-//               </Nav.Link>
-//             </Nav>
-//           </Navbar.Collapse>
-//         </Container>
-//       </Navbar>
-//       <Outlet />
-//     </>
-//   );
-// }
-
-// export default Header;
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import LanguageSelector from "../language-selector";
