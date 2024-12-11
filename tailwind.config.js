@@ -7,3 +7,13 @@ export default {
   },
   plugins: [],
 };
+
+// module.exports = {
+//   theme: {
+//     extend: {
+//       backgroundImage: {
+//         "intro-bg-img": "url('../src/assets/img/intro-bg.png')",
+//       },
+//     },
+//   },
+// };
