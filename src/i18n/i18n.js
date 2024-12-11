@@ -20,7 +20,7 @@ i18n
       // Translation files path
       loadPath: "/locales/{{lng}}/{{ns}}.json",
     },
-    ns: ["header", "footer"], // Namespaces to load
+    ns: ["header"], // Namespaces to load
     defaultNS: "header", // Default namespace
   });
 
