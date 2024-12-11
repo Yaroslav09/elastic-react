@@ -1,13 +1,8 @@
 {
-  "_COMMENT": "// HEADER MENU",
-  "----------": "------------",
-
   "products": "PRODUCTS",
   "ipaas": "iPaaS",
   "enterprise_integration": "Enterprise Integration",
   "saas_embedded_integration": "Embedded Integration for SaaS",
-
-  "-----------": "------------",
 
   "solutions": "Solutions",
   "salesforce_integration": "Salesforce Integration",
@@ -24,7 +19,6 @@
   "mobile_integration": "Mobile Integration",
   "iot_integration": "IoT Integration",
 
-  "------------": "------------",
   "resources": "Resources",
   "getting_started": "Getting Started",
   "documentation": "Documentation",
