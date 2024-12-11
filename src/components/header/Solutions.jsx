@@ -2,22 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Solutions = () => {
-  const { t } = useTranslation("header");
-
-  const {
-    solutions,
-    salesforce_integration,
-    net_suite_integration,
-    sap_integration,
-    cloud_integration,
-    hybrid_integration,
-    api_integration,
-    data_migration,
-    data_analysis,
-    b2b_integration,
-    mobile_integration,
-    iot_integration,
-  } = t("nav");
+  const { t } = useTranslation();
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);

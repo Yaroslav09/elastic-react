@@ -1,7 +1,4 @@
 {
-  "_COMMENT": "// HEADER MENU",
-  "----------": "------------",
-
   "products": "PRODOTTI",
   "ipaas": "iPaaS",
   "enterprise_integration": "Integrazione Enterprise",
@@ -22,7 +19,6 @@
   "mobile_integration": "Integrazione mobile",
   "iot_integration": "Integrazione IoT",
 
-  "------------": "------------",
   "resources": "Risorse",
   "getting_started": "Iniziare",
   "documentation": "Documentazione",

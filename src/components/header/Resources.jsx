@@ -2,24 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Resources = () => {
-  const { t } = useTranslation("header");
-
-  const {
-    getting_started,
-    documentation,
-    release_notes,
-    system_status,
-    rest_api,
-    success_stories,
-    datasheets,
-    partners,
-    customers,
-    blog,
-    pressroom,
-    about_us,
-    careers,
-    contact_us,
-  } = t("nav");
+  const { t } = useTranslation();
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);

@@ -18,7 +18,8 @@ i18n
     },
     backend: {
       // Translation files path
-      loadPath: "/locales/{{lng}}/{{ns}}.json",
+      loadPath: "/elastic-react/locales/{{lng}}/{{ns}}.json",
+      // loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/{{ns}}.json`,
     },
     ns: ["header"], // Namespaces to load
     defaultNS: "header", // Default namespace

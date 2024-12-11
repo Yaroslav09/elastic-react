@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const Products = () => {
-  const { t } = useTranslation("header");
-
-  const { products, ipaas, enterprise_integration, saas_embedded_integration } =
-    t("nav");
+  const { t } = useTranslation();
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
