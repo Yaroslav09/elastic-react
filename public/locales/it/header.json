@@ -39,5 +39,9 @@
   "intro-header": "L'unica piattaforma iPaaS low-code di cui avrai bisogno",
   "intro-p-lage-text": "Crea informazioni dai tuoi dati, aggiungi valore ai tuoi prodotti e riduci le tempistiche di integrazione!",
   "intro-p-small-text": "La piattaforma iPaaS elastic.io fornisce una serie di strumenti visuali per effettuare le integrazioni, la mappatura intuitiva dei dati e la facile risoluzione dei problemi: in questo modo si può generare più valore dai tuoi dati focalizzandoti sul tuo core business.",
-  "intro-demo-button": "Prenota una demo"
+  "intro-demo-button": "Prenota una demo",
+
+  "enterprise-integration-header": "La piattaforma iPaaS ideale per l'integrazione Enterprise",
+  "enterprise-integration-text": "Connetti le tue applicazioni aziendali cloud-cloud o cloud-to-ground, facilita il flusso di dati tramite l'integrazione con API guidata o integra con i partner B2B in modo sicuro e con facilità. Con la piattaforma di integrazione elastica come servizio, ottieni i vantaggi offerti dai prodotti ESB, dal software gateway B2B e dagli strumenti API in un'unica soluzione.",
+  "enterprise-integration-link": "Maggiori informazioni sulla piattaforma elastic.io iPaaS per l'integrazione aziendale"
 }
