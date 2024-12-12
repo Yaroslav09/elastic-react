@@ -43,5 +43,10 @@
 
   "enterprise-integration-header": "La piattaforma iPaaS ideale per l'integrazione Enterprise",
   "enterprise-integration-text": "Connetti le tue applicazioni aziendali cloud-cloud o cloud-to-ground, facilita il flusso di dati tramite l'integrazione con API guidata o integra con i partner B2B in modo sicuro e con facilità. Con la piattaforma di integrazione elastica come servizio, ottieni i vantaggi offerti dai prodotti ESB, dal software gateway B2B e dagli strumenti API in un'unica soluzione.",
-  "enterprise-integration-link": "Maggiori informazioni sulla piattaforma elastic.io iPaaS per l'integrazione aziendale"
+  "enterprise-integration-link": "Maggiori informazioni sulla piattaforma elastic.io iPaaS per l'integrazione aziendale",
+
+  "data-integration-header": "L’integrazione dei dati non deve essere lenta o complicata",
+  "flow-text": "Attività di automazione al mese",
+  "faster-text": "Tempo risparmiato per progetto di integrazione",
+  "connectors-text": "Connettori sviluppati pronti all'uso"
 }

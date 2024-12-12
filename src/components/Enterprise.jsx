@@ -15,8 +15,8 @@ function Enterprise() {
         <h2 className="dark:text-white text-center mx-auto mt-7  w-[80%] font-open-sans text-3xl font-bold leading-[4rem] text-[#445265]">
           {t("enterprise-integration-header")}
         </h2>
-        <div className="flex flex-col justify-center items-center w-[80%] my-6 py-6">
-          <p className="dark:text-white text-center mx-auto w-full text-[#879db5] text-lg my-2">
+        <div className="flex flex-col justify-center items-center w-[80%] my-6 py-6 px-12">
+          <p className="dark:text-white text-center mx-auto w-full text-[#879db5] text-lg my-2 w-[80%]  ">
             {t("enterprise-integration-text")}
           </p>
           <div>
