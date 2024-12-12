@@ -12,7 +12,7 @@ function Intro() {
   };
 
   return (
-    <div className="intro w-full h-[36rem] dark:bg-none bg-[url('elastic-react/src/assets/intro-bg.jpg')] bg-cover bg-no-repeat ">
+    <div className="intro w-full h-[36rem] dark:bg-none bg-[url('./assets/intro-bg.jpg')] bg-cover bg-no-repeat ">
       <div className="container  max-w-[1200px] px-2 mx-auto h-full flex flex-col justify-center items-center">
         <h2 className="dark:text-white text-center mx-auto my-4  w-[80%] font-open-sans text-[3.5rem] font-bold leading-[4rem] text-[#445265] h-[100px]">
           {t("intro-header")}
