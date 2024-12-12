@@ -22,7 +22,7 @@ const LanguageSelector = () => {
       {languages.map((lng) => {
         return (
           <button
-            className={`ml-1 ${lng.code === i18n.language ? "selected" : ""}`}
+            className={`${lng.code === i18n.language ? "selected" : ""} py-2 px-3 mx-2 bg-gray-200 rounded-full dark:bg-gray-800 shadow-lg transition-all duration-300`}
             // {lng.code === i18n.language ? "selected" : ""}
 
             key={lng.code}
