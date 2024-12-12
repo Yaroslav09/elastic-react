@@ -34,5 +34,10 @@
   "pressroom": "Pressroom",
   "about_us": "About Us",
   "careers": "Careers",
-  "contact_us": "Contact Us"
+  "contact_us": "Contact Us",
+
+  "intro-header": "The only low-code iPaaS platform you'll need",
+  "intro-p-lage-text": "Create insights from your data, add value to your products, and reduce integration timelines!",
+  "intro-p-small-text": "elastic.io iPaaS platform gives you the tools for integration visualisation, intuitive data mapping and easy troubleshooting, so that you can generate more value from your data with less distraction from your core business.",
+  "intro-demo-button": "Book a demo"
 }
