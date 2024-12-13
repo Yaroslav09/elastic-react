@@ -48,5 +48,9 @@
   "data-integration-header": "Data integration doesn’t have to be slow or complicated",
   "flow-text": "Running automation tasks per month",
   "faster-text": "Less time per integration project",
-  "connectors-text": "Ready-to-use connectors developed"
+  "connectors-text": "Ready-to-use connectors developed",
+
+  "testimonial-text": "elastic.io enabled us to share data in realtime, across multiple systems based on low-code integrations. The time spent on a single integration decreased while the ability to build new integrations in short time grew exponentially.",
+  "testimonial-author": "Christian Dröge",
+  "testimonial-role": "Senior Software Architect, Krombacher"
 }

@@ -27,7 +27,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-24 w-full mx-auto">
+    <div className="h-24 w-full mx-auto sticky top-0 z-50 bg-white dark:bg-[#031A28]">
       <div className=" flex justify-between items-center h-24 max-w-[1200px] mx-auto px-4 text-[#445265]  dark:text-white">
         {/* Logo */}
         <h1 className="w-full text-3xl font-bold text-[#ED4B23]">ELASTIC.IO</h1>

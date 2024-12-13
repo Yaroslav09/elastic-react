@@ -48,5 +48,9 @@
   "data-integration-header": "L’integrazione dei dati non deve essere lenta o complicata",
   "flow-text": "Attività di automazione al mese",
   "faster-text": "Tempo risparmiato per progetto di integrazione",
-  "connectors-text": "Connettori sviluppati pronti all'uso"
+  "connectors-text": "Connettori sviluppati pronti all'uso",
+
+  "testimonial-text": "elastic.io ci ha permesso di condividere i dati in tempo reale, su più sistemi basati su integrazioni low-code. Il tempo di una singola integrazione è diminuito mentre la capacità di costruire nuove integrazioni in breve tempo è cresciuta in modo esponenziale.",
+  "testimonial-author": "Christian Dröge",
+  "testimonial-role": "Senior Software Architect, Krombacher"
 }
