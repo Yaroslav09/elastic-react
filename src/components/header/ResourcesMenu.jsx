@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const Resources = () => {
+const ResourcesMenu = () => {
   const { t } = useTranslation();
 
   const changeLanguage = (lang) => {
@@ -170,4 +170,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default ResourcesMenu;

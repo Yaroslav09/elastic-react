@@ -66,15 +66,6 @@ function Digital() {
                 </p>
               </div>
             </div>
-            <div>
-              <div>
-                <img src="" alt="" />
-              </div>
-              <div>
-                <h4>{t("")}</h4>
-                <p>{t("")}</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

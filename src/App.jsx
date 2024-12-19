@@ -6,6 +6,7 @@ import Enterprise from "./components/Enterprise";
 import DataIntegration from "./components/DataIntegration";
 import Testimonial from "./components/Testimonial";
 import Digital from "./components/Digital";
+import Resources from "./components/Resources";
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-custom-gradient !dark:text-white ">
@@ -15,6 +16,7 @@ function App() {
       <DataIntegration />
       <Testimonial />
       <Digital />
+      <Resources />
     </div>
   );
 }

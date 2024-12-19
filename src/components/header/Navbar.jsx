@@ -3,7 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import LanguageSelector from "../language-selector";
 import Products from "./Products";
 import Solutions from "./Solutions";
-import Resources from "./Resources";
+import ResourcesMenu from "./ResourcesMenu";
 import Dark from "../../Dark";
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
     { id: 2, text: "CONNECTORS" },
     { id: 3, text: <Solutions /> },
     { id: 4, text: "PRICING" },
-    { id: 5, text: <Resources /> },
+    { id: 5, text: <ResourcesMenu /> },
     { id: 6, text: <LanguageSelector /> },
     { id: 7, text: <Dark /> },
   ];

@@ -60,5 +60,16 @@
   "digital-future-proof-header": "Future-proof",
   "digital-extensibility-text": "Access custom-built applications via APIs, connect to legacy and BI systems or enhance your SaaS products with iPaaS platform capabilities",
   "digital-elasticity-text": "A holiday sales season or a data warehouse migration – the platform’s flexible architecture will easily handle out-of-the-ordinary surges in data flow",
-  "digital-future-proof-text": "Cloud-native by nature and built upon state-of-the-art technology, with elastic.io iPaaS, you’re investing in a robust and future-proof solution"
+  "digital-future-proof-text": "Cloud-native by nature and built upon state-of-the-art technology, with elastic.io iPaaS, you’re investing in a robust and future-proof solution",
+
+  "resources-header": "Resources",
+  "card-cloud-integration-header": "Cloud Integration",
+  "card-cloud-integration-text": "Connect disparate cloud-based applications and services to share & sync data between them automatically and in a fraction of time.",
+  "card-cloud-integration-link": "Learn more about Cloud Integration",
+  "card-hybrid-integration-header": "Hybrid Integration",
+  "card-hybrid-integration-text": "With the elastic.io integration platform as a service, you can easily sync data not only between different SaaS applications but also between cloud and on-premises.",
+  "card-hybrid-integration-link": "Learn more about Hybrid Integration",
+  "card-api-integration-header": "API Integration",
+  "card-api-integration-text": "Easily access and poll virtually any API – of your own home-grown apps or those from third-party vendors – with our default connectors for standard protocols such as REST, SOAP or ODATA.",
+  "card-api-integration-link": "Learn more about API-led Integration"
 }

@@ -60,5 +60,16 @@
   "digital-future-proof-header": "A prova di futuro",
   "digital-extensibility-text": "Accedi alle applicazioni personalizzate tramite API, collegati a sistemi legacy e di BI o migliora i tuoi prodotti SaaS con le funzionalità della piattaforma iPaaS.",
   "digital-elasticity-text": "Una stagione di vendite natalizie o una migrazione del data warehouse: l'architettura flessibile della piattaforma è in grado di gestire facilmente picchi di flusso di dati fuori dall'ordinario.",
-  "digital-future-proof-text": "Cloud-nativo per sua natura e costruito su una tecnologiaall'avanguardia, con l’iPaaS elastic.io, stai investendo in una soluzione robusta e a prova di futuro."
+  "digital-future-proof-text": "Cloud-nativo per sua natura e costruito su una tecnologiaall'avanguardia, con l’iPaaS elastic.io, stai investendo in una soluzione robusta e a prova di futuro.",
+
+  "resources-header": "Risorse",
+  "card-cloud-integration-header": "Integrazione del cloud",
+  "card-cloud-integration-text": "Connetti applicazioni e servizi diversi basati su cloud per condividere e sincronizzare i dati tra di loro automaticamente e in tempi brevissimi.",
+  "card-cloud-integration-link": "Scopri di più sull'integrazione cloud",
+  "card-hybrid-integration-header": "Integrazione ibrida",
+  "card-hybrid-integration-text": "Con la piattaforma di integration as a service elastic.io, è possibile sincronizzare facilmente i dati non solo tra diverse applicazioni SaaS, ma anche tra applicazioni cloud e on-premise.",
+  "card-hybrid-integration-link": "Scopri di più sull'integrazione ibrida",
+  "card-api-integration-header": "Integrazione delle API",
+  "card-api-integration-text": "Accedi facilmente e fai il polling di qualsiasi API - delle tue applicazioni o di quelle di fornitori terzi - utilizzando i nostri connettori predefiniti per protocolli standard come REST, SOAP o ODATA",
+  "card-api-integration-link": "Scopri di più sull'integrazione guidata da API"
 }
