@@ -9,16 +9,16 @@ function Intro() {
   };
 
   return (
-    <div className="intro w-full h-[36rem] dark:bg-none bg-[url('./assets/intro-bg.jpg')] bg-cover bg-no-repeat ">
+    <div className="intro w-full h-full sm:h-[36rem] dark:bg-none bg-[url('./assets/intro-bg.jpg')] bg-cover bg-no-repeat ">
       <div className="container  max-w-[1200px] px-2 mx-auto h-full flex flex-col justify-center items-center">
-        <h2 className="dark:text-white text-center mx-auto my-4  w-[80%] font-open-sans text-[3.5rem] font-bold leading-[4rem] text-[#445265] h-[100px]">
+        <h2 className="dark:text-white text-center mx-auto sm:my-4 w-[90%] xl:w-[80%] font-open-sans text-3xl sm:text-[3rem] md:text-[3.5rem] font-bold leading-normal lg:leading-[4rem] text-[#445265] lg:h-[100px]">
           {t("intro-header")}
         </h2>
-        <div className="flex flex-col justify-center items-center my-6 py-6">
-          <p className="dark:text-white text-center mx-auto w-3/5 text-[#879db5] text-3xl my-2">
+        <div className="flex flex-col justify-center items-center my-2 py-2 lg:my-6 lg:py-6">
+          <p className="dark:text-white text-center mx-auto w-[94%] lg;w-3/5 text-[#879db5] text-2xl md:text-3xl my-2">
             {t("intro-p-lage-text")}
           </p>
-          <p className="dark:text-white text-center mx-auto w-[55%] text-[#879db5] text-lg my-2 py-2">
+          <p className="dark:text-white text-center mx-auto w-[94%] lg:w-[55%] text-[#879db5] text-lg my-2 py-2">
             {t("intro-p-small-text")}
           </p>
         </div>

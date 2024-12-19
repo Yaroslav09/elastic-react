@@ -12,12 +12,12 @@ function DataIntegration() {
   };
 
   return (
-    <div className="enterprise w-full h-[30rem] relative">
+    <div className="w-full h-full md:h-[30rem] relative">
       <div className="container  max-w-[1200px] pt-4 mx-auto h-full flex flex-col justify-center items-center">
-        <h2 className="dark:text-white text-center mx-auto my-7  w-full font-open-sans text-3xl font-bold text-[#445265]">
+        <h2 className="dark:text-white text-center mx-auto my-7 px-4  w-full font-open-sans text-3xl font-bold text-[#445265]">
           {t("data-integration-header")}
         </h2>
-        <div className="flex flex-row justify-center items-center w-full my-1 py-1 text-[#445265] dark:text-white">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full my-1 py-1 text-[#445265] dark:text-white">
           <div className="flex flex-col justify-center items-center basis-1/3">
             <div className="flex justify-center items-center w-[7.5rem] h-[7.5rem] text-center">
               <img className="h-[81px]" src={FlowImg} />

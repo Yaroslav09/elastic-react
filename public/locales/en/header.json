@@ -52,5 +52,13 @@
 
   "testimonial-text": "elastic.io enabled us to share data in realtime, across multiple systems based on low-code integrations. The time spent on a single integration decreased while the ability to build new integrations in short time grew exponentially.",
   "testimonial-author": "Christian Dröge",
-  "testimonial-role": "Senior Software Architect, Krombacher"
+  "testimonial-role": "Senior Software Architect, Krombacher",
+
+  "digital-header": "Built on three pillars of the digital era",
+  "digital-extensibility-header": "Extensible",
+  "digital-elasticity-header": "Flexible",
+  "digital-future-proof-header": "Future-proof",
+  "digital-extensibility-text": "Access custom-built applications via APIs, connect to legacy and BI systems or enhance your SaaS products with iPaaS platform capabilities",
+  "digital-elasticity-text": "A holiday sales season or a data warehouse migration – the platform’s flexible architecture will easily handle out-of-the-ordinary surges in data flow",
+  "digital-future-proof-text": "Cloud-native by nature and built upon state-of-the-art technology, with elastic.io iPaaS, you’re investing in a robust and future-proof solution"
 }

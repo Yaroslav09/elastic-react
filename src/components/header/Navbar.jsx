@@ -33,7 +33,7 @@ const Navbar = () => {
         <h1 className="w-full text-3xl font-bold text-[#ED4B23]">ELASTIC.IO</h1>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex items-center uppercase">
+        <ul className="hidden xl:flex items-center uppercase">
           {navItems.map((item) => (
             <li
               key={item.id}
@@ -47,7 +47,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile Navigation Icon */}
-        <div onClick={handleNav} className="block md:hidden">
+        <div onClick={handleNav} className="block xl:hidden">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient"
+              ? "fixed xl:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient"
               : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%] "
           }
         >
