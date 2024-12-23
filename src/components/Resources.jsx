@@ -65,18 +65,6 @@ function Resources() {
                 </a>
               </div>
             </div>
-
-            {/* <div>
-            <div>
-              <h4>{t("")}</h4>
-              <p>{t("")}</p>
-            </div>
-            <div>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                {t("")}
-              </a>
-            </div>
-          </div> */}
           </div>
         </div>
       </div>

@@ -71,5 +71,7 @@
   "card-hybrid-integration-link": "Learn more about Hybrid Integration",
   "card-api-integration-header": "API Integration",
   "card-api-integration-text": "Easily access and poll virtually any API – of your own home-grown apps or those from third-party vendors – with our default connectors for standard protocols such as REST, SOAP or ODATA.",
-  "card-api-integration-link": "Learn more about API-led Integration"
+  "card-api-integration-link": "Learn more about API-led Integration",
+
+  "demo-header": "Get your 1:1 Online Demo"
 }
