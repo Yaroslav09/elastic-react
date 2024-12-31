@@ -4,6 +4,9 @@ import HubspotForm from "./HubspotForm";
 
 function Demo() {
   const { t } = useTranslation();
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
 
   return (
     <div className="w-full h-full h-full hl:h-[42rem] py-8 relative bg-[#455263] dark:bg-transparent">
@@ -17,20 +20,13 @@ function Demo() {
               <HubspotForm />
             </div>
             <div className="w-full md:w-[38%] p-4">
-              <h5>In meno di 30 minuti imparerai a conoscere:</h5>
-              <ul>
-                <li>
-                  Come puoi{" "}
-                  <strong>sviluppare le tue integrazioni personalizzate</strong>
-                </li>
-                <li>
-                  Come puoi scalarle utilizzando la nostra{" "}
-                  <strong>API di gestione dell'integrazione</strong>
-                </li>
-                <li>
-                  Come la nostra piattaforma <strong>whitelabel</strong> può
-                  semplificare i processi aziendali!
-                </li>
+              <h5 className="text-2xl lg:w-[66%]">
+                {t("demo-30-minutes-header-list")}
+              </h5>
+              <ul className="text-base mt-4 lg:w-[66%]">
+                <li className="mb-4 list-disc">{t("demo-list-item-1")}</li>
+                <li className="mb-4 list-disc">{t("demo-list-item-2")}</li>
+                <li className="list-disc">{t("demo-list-item-3")}</li>
               </ul>
             </div>
           </div>

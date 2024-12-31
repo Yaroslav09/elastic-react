@@ -1,11 +1,17 @@
 import React from "react";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import ElasticLogo from "../assets/img/elasticI_Logo.svg";
 import CloudServiceLogo from "../assets/img/cloud@2x.webp";
 import GermanBusinesClouLogo from "../assets/img/businesscloud@2x.webp";
 import BitKomLogo from "../assets/img/bitkom.webp";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
   return (
     <footer className="bg-gray-50 dark:bg-transparent">
       {/* Footer 1 */}
@@ -14,7 +20,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:flex-wrap justify-between gap-x-4 gap-y-12 xl:gap-y-0 text-left text-gray-700 dark:text-white">
             {/* Portfolio Section */}
             <div className="w-auto px-4 xl:p-0 xl:pr-4">
-              <p className="font-bold text-lg mb-6">PORTFOLIO</p>
+              <p className="font-bold text-lg mb-6">{t("footer-portfolio")}</p>
               <dl className="space-y-3">
                 <dd>
                   <a
@@ -22,7 +28,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Connettori
+                    {t("footer-connectors")}
                   </a>
                 </dd>
                 <dd>
@@ -31,7 +37,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Soluzioni
+                    {t("footer-solutions")}
                   </a>
                 </dd>
                 <dd>
@@ -40,7 +46,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Clienti
+                    {t("footer-customers")}
                   </a>
                 </dd>
                 <dd>
@@ -49,7 +55,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Partner
+                    {t("footer-partners")}
                   </a>
                 </dd>
                 <dd>
@@ -58,7 +64,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Prezzi
+                    {t("footer-pricing")}
                   </a>
                 </dd>
                 <dd>
@@ -67,7 +73,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Risorse
+                    {t("footer-resources")}
                   </a>
                 </dd>
               </dl>
@@ -76,7 +82,7 @@ const Footer = () => {
             {/* Connector Pairings Section */}
             <div className="w-auto px-4">
               <p className="font-bold text-lg mb-6">
-                ACCOPPIAMENTI CON CONNETTORI
+                {t("footer-connectors-pairs")}
               </p>
               <dl className="space-y-3">
                 <dd>
@@ -85,7 +91,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione NetSuite Salesforce
+                    {t("footer-netsuite-salesforce")}
                   </a>
                 </dd>
                 <dd>
@@ -94,7 +100,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione SAP Salesforce
+                    {t("footer-sap-salesforce")}
                   </a>
                 </dd>
                 <dd>
@@ -103,7 +109,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione Salesforce by design
+                    {t("footer-bydesign-salesforce")}
                   </a>
                 </dd>
                 <dd>
@@ -112,7 +118,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione Quickbooks Salesforce
+                    {t("footer-quickbooks-salesforce")}
                   </a>
                 </dd>
                 <dd>
@@ -121,7 +127,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione Shopify NetSuite
+                    {t("footer-shopify-netsuite")}
                   </a>
                 </dd>
                 <dd>
@@ -130,7 +136,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Integrazione Shopware NetSuite
+                    {t("footer-shopware-netsuite")}
                   </a>
                 </dd>
               </dl>
@@ -139,7 +145,9 @@ const Footer = () => {
             {/* Industries and Documentation */}
             <div className="w-auto px-4">
               <div>
-                <p className="font-bold text-lg mb-6">LE INDUSTRIE</p>
+                <p className="font-bold text-lg mb-6">
+                  {t("footer-industries")}
+                </p>
                 <dl className="space-y-3">
                   <dd>
                     <a
@@ -147,7 +155,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      Telecomunicazioni
+                      {t("footer-telecommunications")}
                     </a>
                   </dd>
                   <dd>
@@ -156,7 +164,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      ICT
+                      {t("footer-technology")}
                     </a>
                   </dd>
                   <dd>
@@ -165,13 +173,15 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      Retail
+                      {t("footer-retail")}
                     </a>
                   </dd>
                 </dl>
               </div>
               <div className="mt-10">
-                <p className="font-bold text-lg mb-6">DOCUMENTAZIONE</p>
+                <p className="font-bold text-lg mb-6">
+                  {t("footer-documentation")}
+                </p>
                 <dl className="space-y-3">
                   <dd>
                     <a
@@ -179,7 +189,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      Integration Designer
+                      {t("footer-integration-designer")}
                     </a>
                   </dd>
                   <dd>
@@ -188,7 +198,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      Component Reference
+                      {t("footer-component-reference")}
                     </a>
                   </dd>
                   <dd>
@@ -197,7 +207,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      API REST
+                      {t("footer-rest-api")}
                     </a>
                   </dd>
                   <dd>
@@ -206,7 +216,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      SDK
+                      {t("footer-sdk")}
                     </a>
                   </dd>
                   <dd>
@@ -215,7 +225,7 @@ const Footer = () => {
                       target="_blank"
                       className="hover:underline"
                     >
-                      Supporto
+                      {t("footer-support")}
                     </a>
                   </dd>
                 </dl>
@@ -224,7 +234,7 @@ const Footer = () => {
 
             {/* Elastic.io Section */}
             <div className="w-auto px-4">
-              <p className="font-bold text-lg mb-6">ELASTIC.IO</p>
+              <p className="font-bold text-lg mb-6">{t("footer-elastic-io")}</p>
               <dl className="space-y-3">
                 <dd>
                   <a
@@ -232,7 +242,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Blog
+                    {t("footer-blog")}
                   </a>
                 </dd>
                 <dd>
@@ -241,7 +251,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Sala stampa
+                    {t("footer-pressroom")}
                   </a>
                 </dd>
                 <dd>
@@ -250,7 +260,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Chi siamo
+                    {t("footer-about-us")}
                   </a>
                 </dd>
                 <dd>
@@ -259,7 +269,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Carriere
+                    {t("footer-careers")}
                   </a>
                 </dd>
                 <dd>
@@ -268,7 +278,7 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline"
                   >
-                    Contattaci
+                    {t("footer-contact-us")}
                   </a>
                 </dd>
               </dl>
@@ -289,52 +299,44 @@ const Footer = () => {
 
       {/* Footer 2 */}
       <div className="border-t border-gray-300 py-12">
-        <div className="container mx-auto px-4 text-center text-gray-500 dark:text-white">
-          <p className="text-sm leading-relaxed">
-            Chi è elastic.io: elastic.io è una realtà innovativa nata nel cloud
-            ed esperta in soluzioni di integrazione cloud in Europa. La
-            piattaforma di integrazione ibrida dell’azienda, fornita nella
-            modalità “as-a-service” (iPaaS) offre agli utenti una gamma completa
-            di strumenti e tecnologie per connettere facilmente diverse
-            tipologie di software nella modalità cloud-to-cloud e
-            cloud-to-ground, con un importante risparmio economico e di tempo.
-          </p>
+        <div className="container max-w-[1200px] mx-auto px-4 text-center text-gray-500 dark:text-white">
+          <p className="text-[15px] leading-relaxed">{t("footer2-content")}</p>
 
           <ul className="flex flex-wrap justify-center items-center space-x-4 text-sm mt-4">
             <li>
               <a
                 href="https://www.elastic.io/legal-disclosure/"
                 target="_blank"
-                className="hover:underline"
+                className="hover:underline uppercase"
               >
-                INFORMAZIONI LEGALI
+                {t("footer2-legal-disclosure")}
               </a>
             </li>
             <li>
               <a
                 href="https://www.elastic.io/privacy-policy/"
                 target="_blank"
-                className="hover:underline"
+                className="hover:underline uppercase"
               >
-                INFORMATIVA SULLA PRIVACY
+                {t("footer2-privacy-policy")}
               </a>
             </li>
             <li>
               <a
                 href="https://www.elastic.io/tou/"
                 target="_blank"
-                className="hover:underline"
+                className="hover:underline uppercase"
               >
-                TERMINI E CONDIZIONI D'USO
+                {t("footer2-terms-of-use")}
               </a>
             </li>
             <li>
               <a
                 href="https://www.elastic.io/contact/"
                 target="_blank"
-                className="hover:underline"
+                className="hover:underline uppercase"
               >
-                CONTATTI
+                {t("footer2-contact")}
               </a>
             </li>
           </ul>
