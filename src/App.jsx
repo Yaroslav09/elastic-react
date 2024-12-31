@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial";
 import Digital from "./components/Digital";
 import Resources from "./components/Resources";
 import Demo from "./components/Demo";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-custom-gradient !dark:text-white ">
@@ -19,6 +20,7 @@ function App() {
       <Digital />
       <Resources />
       <Demo />
+      <Footer />
     </div>
   );
 }
