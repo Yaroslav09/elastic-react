@@ -55,15 +55,10 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "fixed xl:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient"
+              ? "fixed xl:hidden left-0 top-[80px] w-full h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient "
               : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%] "
           }
         >
-          {/* Mobile Logo */}
-          <h1 className="w-full text-xl font-bold text-[#ED4B23] m-4">
-            ELASTIC.IO
-          </h1>
-
           {/* Mobile Navigation Items */}
           {navItems.map((item) => (
             <li
