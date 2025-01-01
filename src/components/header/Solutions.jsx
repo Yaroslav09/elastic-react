@@ -91,7 +91,7 @@ const Solutions = () => {
         <div
           className="xl:origin-top-right xl:left-[-320px] p-4 xl:absolute xl:mt-5 xl:w-auto text-[#445265]-700 
                     rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5
-                    focus:outline-none flex flex-col xl:flex-row dark:text-white dark:bg-transparent xl:dark:bg-custom-gradient xl:dark:ring-1 xl:dark:ring-[#445265]"
+                    focus:outline-none flex flex-col xl:flex-row dark:text-white dark:bg-transparent xl:dark:bg-custom-gradient xl:dark:ring-1 xl:dark:ring-[#445265] mt-2 pl-4 pr-2 py-1 shadow-md space-y-1"
           role="menu"
         >
           <div className="py-1 xl:w-60 capitalize" role="none">

@@ -64,7 +64,7 @@ const ResourcesMenu = () => {
         <div
           className="xl:origin-top-right xl:absolute xl:right-0 xl:mt-5 p-3 xl:w-auto text-[#445265]
                     rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5
-                    focus:outline-none flex flex-col xl:flex-row dark:text-white dark:bg-transparent xl:dark:bg-custom-gradient dark:ring-1 xl:dark:ring-[#445265]"
+                    focus:outline-none flex flex-col xl:flex-row dark:text-white dark:bg-transparent xl:dark:bg-custom-gradient dark:ring-1 xl:dark:ring-[#445265] mt-2 pl-4 pr-2 py-1 shadow-md space-y-1"
           role="menu"
         >
           <div className="p-2 w-52 capitalize" role="none">
