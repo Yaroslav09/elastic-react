@@ -20,10 +20,10 @@ function Demo() {
               <HubspotForm />
             </div>
             <div className="w-full md:w-[38%] p-4">
-              <h5 className="text-2xl lg:w-[66%]">
+              <h5 className="text-2xl lg:w-[66%] px-4">
                 {t("demo-30-minutes-header-list")}
               </h5>
-              <ul className="text-base mt-4 lg:w-[66%]">
+              <ul className="text-base mt-4 lg:w-[66%] px-4">
                 <li className="mb-4 list-disc">{t("demo-list-item-1")}</li>
                 <li className="mb-4 list-disc">{t("demo-list-item-2")}</li>
                 <li className="list-disc">{t("demo-list-item-3")}</li>
