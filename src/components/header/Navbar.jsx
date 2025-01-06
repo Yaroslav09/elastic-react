@@ -4,7 +4,7 @@ import LanguageSelector from "../language-selector";
 import Products from "./Products";
 import Solutions from "./Solutions";
 import ResourcesMenu from "./ResourcesMenu";
-import Dark from "../../Dark";
+import Dark from "./Dark";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -55,7 +55,7 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "fixed xl:hidden left-0 top-[80px] w-full h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient "
+              ? "fixed xl:hidden left-0 top-[80px] w-full border-r border-r-gray-900 bg-white ease-in-out duration-500 dark:bg-custom-gradient overflow-scroll h-screen"
               : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%] "
           }
         >
