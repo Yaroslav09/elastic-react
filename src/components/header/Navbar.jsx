@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import LanguageSelector from "../language-selector";
 import Products from "./Products";
@@ -7,13 +7,21 @@ import ResourcesMenu from "./ResourcesMenu";
 import Dark from "./Dark";
 
 const Navbar = () => {
-  // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
-
-  // Toggle function to handle the navbar's display
   const handleNav = () => {
     setNav(!nav);
   };
+
+  useEffect(() => {
+    if (nav) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [nav]);
 
   // Array containing navigation items
   const navItems = [
@@ -37,8 +45,8 @@ const Navbar = () => {
           {navItems.map((item) => (
             <li
               key={item.id}
-              className=" p-4 m-2 cursor-pointer duration-300 flex w-full  
-                    text-sm font-medium text-[#445265] dark:text-white 
+              className=" p-4 m-2 cursor-pointer duration-300 flex w-full
+                    text-sm font-medium text-[#445265] dark:text-white
                     focus:outline-none"
             >
               {item.text}
